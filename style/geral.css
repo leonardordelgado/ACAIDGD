@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "bootstrap-icons";
+  src: 
+  url("./fonts/bootstrap-icons.woff2?856008caa5eb66df68595e734e59580d") format("woff2"),
+  rl("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("woff");
+}
+body{
+  background-color: var(--bg-body);
+  font-family:'Open Sans', 'bootstrap-icons', sans-serif;
+  color: var(--bg-letra1);
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+.logo1{
+  background-image: url(/img/logo1.jpg);
+  background-size: cover;
+  background-position: 9%;
+  width: 50vw;
+  height: 20vh;
+}
+.logo2{
+  background-image: url(/img/logo2.jpg);
+  background-size: cover;
+  background-position: 90%;
+  width: 50vw;
+  height: 20vh;
+}
+.logo{
+  position: absolute;
+  width: 50vw;
+}
